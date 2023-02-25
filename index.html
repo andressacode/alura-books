@@ -86,6 +86,7 @@
 
     <section class="carrossel">
       <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+      <!-- SWIPER -->
       <!-- Slider main container -->
       <div class="swiper">
         <!-- If we need pagination -->
@@ -130,6 +131,45 @@
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
+      <!-- FIM SWIPER -->
+
+      <!-- DIV CARD -->
+      <div class="card">
+        <!-- 1ª Linha -->
+        <div class="card__descricao">
+          <!-- 1ª Coluna-->
+          <div class="descricao">
+            <h3 class="descricao__titulo">
+              Talvez você também se interesse por...
+            </h3>
+            <h2 class="descricao__titulo-livro">Angular 11 e Firebase</h2>
+            <p class="descricao__texto">
+              Construindo uma aplicação integrada com a plataforma do Google.
+            </p>
+          </div>
+          <!-- 2ª Coluna -->
+          <img src="assets/Angular-card.svg" alt="" />
+        </div>
+
+        <!-- 2ª Linha -->
+        <div class="card__botoes">
+          <!-- 1ª Coluna-->
+          <ul class="botoes">
+            <li class="botoes__item">
+              <img src="assets/Favoritos.svg" alt="Favoritar livro" />
+            </li>
+            <li class="botoes__item">
+              <img
+                src="assets/Sacola.svg"
+                alt="Adicionar ao carrinho de compras"
+              />
+            </li>
+          </ul>
+          <!-- 2ª Coluna -->
+          <a href="#" class="botoes__ancora">Saiba mais</a>
+        </div>
+      </div>
+      <!-- FIM DIV CARD -->
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
