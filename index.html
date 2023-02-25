@@ -84,6 +84,8 @@
       />
     </section>
 
+    <!-- Section Últimos lançcamentos -->
+
     <section class="carrossel">
       <h2 class="carrossel__titulo">Últimos lançamentos</h2>
       <!-- SWIPER -->
@@ -170,6 +172,11 @@
         </div>
       </div>
       <!-- FIM DIV CARD -->
+    </section>
+    <!-- Fim Section Últimos lançcamentos -->
+
+    <!-- Section Mais Vendidos -->
+    <section class="carrossel">
       <h2 class="carrossel__titulo">Mais vendidos</h2>
       <!-- SWIPER -->
       <!-- Slider main container -->
@@ -212,34 +219,20 @@
           <!-- Fim Slides -->
         </div>
 
-        <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       </div>
-      <!-- FIM SWIPER -->
-      <!-- DIV CARD -->
+      <!-- Fim Swiper -->
       <div class="card">
         <!-- 1ª Linha -->
         <div class="card__descricao">
           <!-- 1ª Coluna-->
           <div class="descricao">
-            <ul class="descricao__estrelas">
-              <li class="estrelas__item">
-                <img src="assets/Star.svg" alt="Favoritar livro" />
-              </li>
-              <li class="estrelas__item">
-                <img src="assets/Star.svg" alt="Favoritar livro" />
-              </li>
-              <li class="estrelas__item">
-                <img src="assets/Star.svg" alt="Favoritar livro" />
-              </li>
-              <li class="estrelas__item">
-                <img src="assets/Star.svg" alt="Favoritar livro" />
-              </li>
-              <li class="estrelas__item">
-                <img src="assets/Star.svg" alt="Favoritar livro" />
-              </li>
-            </ul>
+            <img
+              class="descricao__avaliacao"
+              src="assets/Stars.svg"
+              alt="Avaliação 5 estrelas"
+            />
             <h3 class="descricao__titulo">Autora do mês</h3>
             <h2 class="descricao__titulo-livro">Juliana Agarikov</h2>
             <p class="descricao__texto">
@@ -271,6 +264,8 @@
       </div>
       <!-- FIM DIV CARD -->
     </section>
+    <!-- Fim Section Mais Vendidos -->
+
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
       const swiper = new Swiper('.swiper', {

@@ -35,6 +35,10 @@
   margin-bottom: 0.5em;
 }
 
+.descricao__avaliacao {
+  margin-bottom: 0.5em;
+}
+
 .descricao__titulo {
   color: var(--laranja);
   font-weight: 700;
@@ -70,9 +74,4 @@
   color: var(--branco);
   font-weight: 700;
   text-decoration: none;
-}
-
-.descricao__estrelas {
-  display: flex;
-  margin-bottom: 0.5em;
 }
