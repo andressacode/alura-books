@@ -23,7 +23,7 @@
 
 .topicos__link {
   color: var(--branco);
-  padding: 1em;
+  padding: 0.5em;
   background-color: var(--laranja);
   text-decoration: none;
   font-size: 14px;
@@ -38,4 +38,12 @@
   .topicos__link {
     font-size: 24px;
   }
+}
+
+@media screen and (min-width: 1728px){
+
+  .topicos{
+    padding: 3em 30vw;
+  }
+
 }

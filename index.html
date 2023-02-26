@@ -63,6 +63,7 @@
         <label for="opcoes-menu">
           <li class="opcoes__item">Categorias</li>
         </label>
+
         <ul class="lista-menu">
           <li class="lista-menu__item">
             <a href="#" class="lista-menu__link">Programação</a>
@@ -89,24 +90,16 @@
       </ul>
 
       <div class="container">
-        <a href="#"
-          ><img
-            src="assets/Favoritos.svg"
-            alt="Meus favoritos"
-            class="container__imagem container__imagem-transparente"
-        /></a>
-        <a href="#"
-          ><img
-            src="assets/Sacola.svg"
-            alt="Minhas compras"
-            class="container__imagem"
-        /></a>
-        <a href="#"
-          ><img
-            src="assets/Usuario.svg"
-            alt="Meu perfil"
-            class="container__imagem"
-        /></a>
+        <a href="#" ><img src="assets/Favoritos.svg" alt="Meus favoritos"
+            class="container__imagem container__imagem-transparente"/>
+        </a>
+        <a href="#" class="container__link">
+          <img src="assets/Sacola.svg" class="container__imagem" />
+          <p class="container__texto">Minha Sacola</p>
+        </a>
+        <a href="#" class="container__link">
+          <img src="assets/Usuario.svg" alt="Meu perfil" class="container__imagem"/>
+          <p class="container__texto">Meu Perfil</p></a>
       </div>
     </header>
 
@@ -128,6 +121,7 @@
       <h2 class="carrossel__titulo">Últimos lançamentos</h2>
       <!-- SWIPER -->
       <!-- Slider main container -->
+      <div class="carrossel__container">
       <div class="swiper">
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -209,6 +203,7 @@
           <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
       </div>
+    </div>
       <!-- FIM DIV CARD -->
     </section>
     <!-- Fim Section Últimos lançcamentos -->
@@ -218,6 +213,7 @@
       <h2 class="carrossel__titulo">Mais vendidos</h2>
       <!-- SWIPER -->
       <!-- Slider main container -->
+      <div class="carrossel__container">
       <div class="swiper">
         <!-- If we need pagination -->
         <div class="swiper-pagination"></div>
@@ -301,6 +297,7 @@
         </div>
       </div>
       <!-- FIM DIV CARD -->
+    </div>
     </section>
     <!-- Fim Section Mais Vendidos -->
 
